@@ -1,0 +1,4 @@
+2021-10-20 16:22:06,904 INFO mate.service.AuthenticationServiceImpl:25 User with login romon was successfully authenticated
+2021-10-20 16:22:27,225 INFO mate.service.AuthenticationServiceImpl:22 User with login romon failed authentication
+2021-10-20 16:28:33,101 INFO mate.service.AuthenticationServiceImpl:22 User with login ?????° failed authentication
+2021-10-20 16:42:53,865 INFO mate.service.AuthenticationServiceImpl:25 User with login romon was successfully authenticated
