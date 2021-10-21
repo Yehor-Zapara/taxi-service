@@ -30,12 +30,12 @@ to better understanding what's in popular frameworks going on under the hood.
 - Tomcat (version 9.0.54), to run application locally
 
 ## Setup
-1. Download and install MySQL
+1. Download and install MySQL.
 2. Download and install Tomcat (version 9.0.54).
-3. Fork this project and clone it to your Java IDE
+3. Fork this project and clone it to your Java IDE.
 4. Use `init_db.sql` file in `src/main/resources` folder 
 to create schema (download MySQL Workbench if you need).
-5. Add your information in `ConnectionUtil.java` file in `src/main/java/mate/util` folder 
+5. Add your information in `ConnectionUtil.java` file in `src/main/java/mate/util` folder. 
 
 ```
     private static final String URL = "YOUR DATABASE URL";
@@ -46,15 +46,15 @@ to create schema (download MySQL Workbench if you need).
 
 Username and password is data which you used to connect to MySQL Server (in Workbench, Database tool in IDE etc.).
 Example of URL: `jdbc:mysql://localhost:3306/taxi?serverTimezone=UTC`. 
-Example of Driver: `com.mysql.cj.jdbc.Driver` 
+Example of Driver: `com.mysql.cj.jdbc.Driver`. 
  
-6. Change `fileName` in `log4j2.xml` file in `src/main/resources` folder to your absolute path to this project
+6. Change `fileName` in `log4j2.xml` file in `src/main/resources` folder to your absolute path to this project.
 
 ```
 <File name="LogToFile" fileName="C:/Users/Admin/IdeaProjects/taxi-service/logs/app.log">
 ```
 
-Or you can change it to `logs/app.log` and logging info will store in Tomcat folder `/apache-tomcat-9../bin/logs` (if it has access)
+Or you can change it to `logs/app.log` and logging info will store in Tomcat folder `/apache-tomcat-9../bin/logs` (if it has access).
 
-7. Run this app with Tomcat local server
-8. You will be redirected to login page. Click on `Create new Driver` and register new driver. Then you need to authenticate, as well
+7. Run this app with Tomcat local server.
+8. You will be redirected to login page. Click on `Create new Driver` and register new driver. Then you need to authenticate, as well.
