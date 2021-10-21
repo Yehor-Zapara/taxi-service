@@ -48,14 +48,15 @@ to create schema (download MySQL Workbench if you need).
     private static final String JDBC_DRIVER = "YOUR DRIVER";
 ```
 
-Example of URL: `jdbc:mysql://localhost:3306/taxi?serverTimezone=UTC`. Example of Driver: `com.mysql.cj.jdbc.Driver`. 
-Username and password is data which you used to connect to MySQL Server (in Workbench, Database tool in IDE etc.)
+Example of URL: `jdbc:mysql://localhost:3306/taxi?serverTimezone=UTC` <br>
+Example of Driver: `com.mysql.cj.jdbc.Driver` <br> 
+Username and password is data which you used to connect to MySQL Server (in Workbench, Database tool in IDE etc.) <br>
 6. Change `fileName` in `log4j2.xml` file in `src/main/resources` folder to your absolute path to this project
 
 ```
 <File name="LogToFile" fileName="C:/Users/Admin/IdeaProjects/taxi-service/logs/app.log">
 ```
 
-Or you can change it to `logs/app.log` and logging info will store in Tomcat folder `\apache-tomcat-9..\bin\logs` (if it has access)
-7. Run this app with Tomcat local server 
+Or you can change it to `logs/app.log` and logging info will store in Tomcat folder `\apache-tomcat-9..\bin\logs` (if it has access) <br>
+7. Run this app with Tomcat local server <br>
 8. You will be redirected to login page. Click on `Create new Driver` and register new driver. Then you need to authenticate, as well 
