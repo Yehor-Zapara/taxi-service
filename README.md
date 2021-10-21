@@ -6,13 +6,11 @@
 - [Features](#features)
 - [Technologies](#technologies)
 - [Setup](#setup)
-___
 
 ## Description
 Taxi Service is a simple web application for taxi drivers that 
 shows information about drivers and their cars. This project was built with JDBC and Java Servlet API 
 to better understanding what's in popular frameworks going on under the hood.
-___
 
 ## Features
 - Registration and authentication of a driver
@@ -21,7 +19,6 @@ ___
 (with the ability to delete each of them)
 - Adding a driver to a car
 - Logging of authentication attempts
-___
 
 ## Technologies
 - Java (JDK version 11)
@@ -31,7 +28,6 @@ ___
 - JSTL (version 1.2)
 - MySQL (version 8.0.22)
 - Tomcat (version 9.0.54), to run application locally
-___
 
 ## Setup
 1. Download and install MySQL
@@ -58,7 +54,7 @@ Example of Driver: `com.mysql.cj.jdbc.Driver`
 <File name="LogToFile" fileName="C:/Users/Admin/IdeaProjects/taxi-service/logs/app.log">
 ```
 
-Or you can change it to `logs/app.log` and logging info will store in Tomcat folder `\apache-tomcat-9..\bin\logs` (if it has access)
+Or you can change it to `logs/app.log` and logging info will store in Tomcat folder `/apache-tomcat-9../bin/logs` (if it has access)
 
 7. Run this app with Tomcat local server
 8. You will be redirected to login page. Click on `Create new Driver` and register new driver. Then you need to authenticate, as well
