@@ -50,7 +50,7 @@ to create schema (download MySQL Workbench if you need).
 
 Example of URL: `jdbc:mysql://localhost:3306/taxi?serverTimezone=UTC` <br>
 Example of Driver: `com.mysql.cj.jdbc.Driver` <br> 
-Username and password is data which you used to connect to MySQL Server (in Workbench, Database tool in IDE etc.) <br>
+Username and password is data which you used to connect to MySQL Server <br> (in Workbench, Database tool in IDE etc.) <br>
 6. Change `fileName` in `log4j2.xml` file in `src/main/resources` folder to your absolute path to this project
 
 ```
