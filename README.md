@@ -1,5 +1,5 @@
 # Taxi Service
-
+You can test this app without setup just by following the [link](https://zapara-taxi-service-app.herokuapp.com/).
 ## Table of Contents
 
 - [Description](#description)
